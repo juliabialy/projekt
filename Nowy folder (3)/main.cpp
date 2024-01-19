@@ -220,12 +220,7 @@ int main()
             WczytajZPliku(p, n, "tablica.txt");
             break;
         }
-        case 8:
-        {
-  
-            delete[] p;
-            return 0;
-        }
+        
         default:
         {
             cout << "Nieprawidlowa opcja" << endl;
